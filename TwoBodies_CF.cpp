@@ -1,10 +1,7 @@
-/********************************
-*
-*		 CHRIS FLORES
-*
-*
-*
-*********************************/
+/*********************************
+*				 *
+*           CHRIS FLORES	 *
+**********************************
 
 #include <iostream>
 #include <string>
@@ -40,7 +37,8 @@ int main() {
 	float gravity = 6.67e-11;
 	float r = sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
 	float force = (gravity * m1 * m2) / (r * r);
-	std::cout << "The force of gravitational between these two masses is the vector (" << force * (ux / magnitude) << ", " << force * (uy / magnitude) << ") Newtons. ";
+	std::cout << "The force of gravitational between these two masses is the vector
+		(" << force * (ux / magnitude) << ", " << force * (uy / magnitude) << ") Newtons. ";
 
 
 
