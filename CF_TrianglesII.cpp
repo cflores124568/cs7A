@@ -1,7 +1,7 @@
 /********************************************
-*				CHRIS FLORES				*
-*				ASSIGNMENT 5				*
-*											*
+*		CHRIS FLORES		    *
+*		ASSIGNMENT 5		    *
+*					    *
 ********************************************/
 
 #include <iostream>
