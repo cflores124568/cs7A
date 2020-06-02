@@ -1,8 +1,8 @@
-/************************
-*						*
-*	  CHRIS FLORES		*
-*						*
-************************/
+/**************************
+*			  *
+*	  CHRIS FLORES	  *
+*			  *
+***************************/
 
 #include <iostream>
 #include <vector>
@@ -25,8 +25,6 @@ int main() {
 	susceptible.push_back(susceptible[0] + deltaS);
 	infectious.push_back(infectious[0] + deltaI);
 	recovered.push_back(recovered[0] + deltaR);
-	//// insert loop here...set flag when i starts decreasing, and double days from there
-
 	printToFile(ofs, susceptible, infectious, recovered);
 
 
@@ -34,8 +32,8 @@ int main() {
 
 void printToFile(std::vector<double> susceptible, std::vector<double> infectious, std::vector<double> recovered, std::ofstream ofs) {
 	ofs << "Suscepible      Infectious     Recovered\n";
-	for (int i = 0; i < susceptible.size(); i++) {
-		ofs << susceptible[i] << ", " << infectious[i] << ", " << recovered[i] << "\n";
+	for (int j = 0; j < susceptible.size(); j++) {
+		ofs << susceptible[j] << ", " << infectious[j] << ", " << recovered[j] << "\n";
 	}
 
 }
